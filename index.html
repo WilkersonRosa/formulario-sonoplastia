@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição Sonoplastia - AD Céu</title>
+
+    <!-- Links -->
+    <link rel="stylesheet" type="text/css" href="st001.css" media="screen">
+</head>
+<body>
+    <header>
+        <img src="src/Artboard 4 copy 2.png" alt="Ad Ceu logo">
+        <p>Formulário de Inscrição para Sonoplastia</p>
+    </header>
+
+    <div id="global">
+        <div class="img"><img src="src/Artboard 1.png" alt="AD Céu"></div>
+        <div id="formcontainer">
+            <p>Insira os seus dados para realizar o cadastro, em breve o responsável do departamento entrará em contato com você.</p>
+            <form action="https://formsubmit.co/wilnarede@hotmail.com" method="POST">
+                <fieldset>
+                    <div>
+                        <label for="nome">Nome </label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div>
+                        <label for="sobrenome"> Sobrenome </label>
+                        <input type="text" name="sobrenome" id="sobrenome" required>
+                    </div>
+                </fieldset>
+                <div>
+                    <label for="nascimento">Nascimento: </label>
+                    <input type="date" name="nascimento" id="nascimento">
+                </div>
+                <div>
+                    <p>Qual o seu gênero?</p>
+                    <label for="genero"><input type="radio" name="genero" value="masculino" required> Masculino</label>
+                    <label for="genero"><input type="radio" name="genero" value="feminino" required> Feminino</label>
+                </div>
+                <div>
+                    <label for="zap">Whatsapp: </label>
+                    <input type="tel" name="zap" id="zap" required>
+                </div>
+                <div>
+                    <label for="email">E-Mail: </label>
+                    <input type="email" name="email" id="imail" required>
+                </div>
+                <div>
+                    <p>Porque gostaria de fazer parte da nossa equipe? (Diga em um breve texto)</p>
+                    <textarea name="resposta" id="resposta" cols="50" rows="10" required></textarea>
+                </div>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+                <div id="btn"><input type="submit" value="Enviar!"></div>
+
+            </form>
+        </div>
+
+    </img>
+</body>
+</html>
